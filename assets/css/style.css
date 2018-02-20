@@ -1720,3 +1720,8 @@ a.learn-more {
 .footer-text.wow.fadeInUp a:hover {
     color: #4b691e;
 }
+
+#uber_uns_img {
+    padding-right: 0px;
+    padding-left: 0px;
+}
