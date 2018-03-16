@@ -196,6 +196,7 @@ a.read-more {
 }
 
 
+
 /*
 * ----------------------------------------------------------------------------------------
 * 02.PRELOADER & BOUNCE CCS STYLE
@@ -252,6 +253,7 @@ a.read-more {
         transform: rotate(360deg);
     }
 }
+
 
 
 /*
@@ -477,7 +479,7 @@ ul.header-social li a:hover {
     visibility: visible;
 }
 
-.mainmenu ul.nav > li ul li:hover ul.sub-menu {
+.mainmenu ul.nav>li ul li:hover ul.sub-menu {
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     visibility: visible;
@@ -515,12 +517,12 @@ a.slide-btn {
 a.slide-btn:hover {}
 
 
+
 /*
 * ----------------------------------------------------------------------------------------
 * HOMEPAGE SLIDER BACKGROUND CSS STYLE
 * ----------------------------------------------------------------------------------------
 */
-
 
 .single-slide-item {
     position: relative;
@@ -683,6 +685,8 @@ a.slide-btn:hover {}
     transition: .3s;
     background: #000;
 }
+
+
 /*
 * ----------------------------------------------------------------------------------------
 * 05.ABOUT CSS STYLE
@@ -710,6 +714,7 @@ a.slide-btn:hover {}
 .about-text p {
     margin-bottom: 18px;
 }
+
 
 
 /*
@@ -777,6 +782,7 @@ a.slide-btn:hover {}
 }
 
 
+
 /*
 * ----------------------------------------------------------------------------------------
 * 07.VIDEO CSS STYLE
@@ -824,6 +830,7 @@ a.slide-btn:hover {}
 }
 
 
+
 /*
 * ----------------------------------------------------------------------------------------
 * 08.TEAM CSS STYLE
@@ -852,6 +859,7 @@ a.slide-btn:hover {}
 .single-team p {
     margin: 20px 0;
 }
+
 
 
 /*
@@ -893,6 +901,7 @@ a.slide-btn:hover {}
     border-radius: 50%;
     line-height: 40px;
 }
+
 
 
 /*
@@ -1024,6 +1033,7 @@ a.slide-btn:hover {}
 }
 
 
+
 /*
 * ----------------------------------------------------------------------------------------
 * 11.COMPLETE PROJECTS CSS STYLE
@@ -1066,6 +1076,7 @@ a.slide-btn:hover {}
     font-size: 55px;
     color: #CDCDCD;
 }
+
 
 
 /*
@@ -1147,6 +1158,7 @@ a.slide-btn:hover {}
 }
 
 
+
 /*
 * ----------------------------------------------------------------------------------------
 * 13.PRICING CSS STYLE
@@ -1226,6 +1238,7 @@ a.plan-more {
 }
 
 
+
 /*
 * ----------------------------------------------------------------------------------------
 * 14.GET STARTED CSS STYLE
@@ -1243,6 +1256,7 @@ a.plan-more {
 .get-text p {
     padding: 0px 100px;
 }
+
 
 
 /*
@@ -1276,6 +1290,7 @@ a.plan-more {
 }
 
 
+
 /*
 * ----------------------------------------------------------------------------------------
 * 16.MAP CSS STYLE
@@ -1285,6 +1300,7 @@ a.plan-more {
 #map {
     height: 350px;
 }
+
 
 
 /*
@@ -1386,6 +1402,7 @@ textarea:-ms-input-placeholder {
     padding: 20px;
     text-align: center;
 }
+
 
 
 /*
@@ -1495,6 +1512,7 @@ textarea:-ms-input-placeholder {
     color: #999;
     font-size: 14px;
 }
+
 
 
 /*
@@ -1627,8 +1645,8 @@ a.learn-more {
     color: #4b691e;
 }
 
-.blog-post-navigation .pager li > a,
-.pager li > span {
+.blog-post-navigation .pager li>a,
+.pager li>span {
     display: inline-block;
     padding: 10px 14px;
     background-color: #4b691e;
@@ -1658,53 +1676,66 @@ a.learn-more {
 
 
 
+
 /*
 * ----------------------------------------------------------------------------------------
 * PREVIEW CSS STYLE
 * ----------------------------------------------------------------------------------------
 */
-.preview-body{
-   background: #F0F2F5;
+
+.preview-body {
+    background: #F0F2F5;
 }
-.preview-single-image img{
+
+.preview-single-image img {
     width: 100%;
 }
-.preview-single-image{
+
+.preview-single-image {
     transition: 1s;
     box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.05);
     margin-bottom: 30px;
 }
-.preview-single-image:hover{
+
+.preview-single-image:hover {
     transition: 1s;
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
 }
-.preview-single-image h2{
+
+.preview-single-image h2 {
     font-size: 20px;
     text-align: center;
     color: #000;
-     background: #fff;margin: 0;
+    background: #fff;
+    margin: 0;
     padding: 30px 20px;
 }
-.preview-header-top-area{
+
+.preview-header-top-area {
     padding: 50px 0px;
 }
-.preview-header-top-area h2{
+
+.preview-header-top-area h2 {
     font-size: 60px;
     color: #4b691e;
     text-transform: uppercase;
     font-weight: 900;
 }
-.preview-header-top-area p{
+
+.preview-header-top-area p {
     color: #333;
     font-size: 30px;
     font-weight: 300;
 }
-.main h2{
+
+.main h2 {
     color: #000;
 }
+
 .main {
-	margin-bottom: 180px;
+    margin-bottom: 180px;
 }
+
 
 /*
 * ----------------------------------------------------------------------------------------

@@ -7,17 +7,17 @@ Version      : 1.0
 */
 
 
-(function ($) {
+(function($) {
     'use strict';
 
-    jQuery(document).ready(function () {
+    jQuery(document).ready(function() {
 
         /*
          * ----------------------------------------------------------------------------------------
          *  PRELOADER JS
          * ----------------------------------------------------------------------------------------
          */
-        $(window).on('load', function () {
+        $(window).on('load', function() {
             $('.preloader').fadeOut();
             $('.preloader-area').delay(350).fadeOut('slow');
 
@@ -32,19 +32,19 @@ Version      : 1.0
             // filter functions
             var filterFns = {
                 // show if number is greater than 50
-                numberGreaterThan50: function () {
+                numberGreaterThan50: function() {
                     var number = $(this).find('.number').text();
                     return parseInt(number, 10) > 50;
                 },
                 // show if name ends with -ium
-                ium: function () {
+                ium: function() {
                     var name = $(this).find('.name').text();
                     return name.match(/ium$/);
                 }
             };
 
             // bind filter button click
-            $('#filters').on('click', 'li', function () {
+            $('#filters').on('click', 'li', function() {
                 var filterValue = $(this).attr('data-filter');
                 // use filterFn if matches value
                 filterValue = filterFns[filterValue] || filterValue;
@@ -54,9 +54,9 @@ Version      : 1.0
             });
 
             // change is-checked class on buttons
-            $('.filters').each(function (i, buttonGroup) {
+            $('.filters').each(function(i, buttonGroup) {
                 var $buttonGroup = $(buttonGroup);
-                $buttonGroup.on('click', 'li', function () {
+                $buttonGroup.on('click', 'li', function() {
                     $buttonGroup.find('.active').removeClass('active');
                     $(this).addClass('active');
                 });
@@ -80,7 +80,7 @@ Version      : 1.0
          * ----------------------------------------------------------------------------------------
          */
 
-        $('a.smoth-scroll').on("click", function (e) {
+        $('a.smoth-scroll').on("click", function(e) {
             var anchor = $(this);
             $('html, body').stop().animate({
                 scrollTop: $(anchor.attr('href')).offset().top - 50
@@ -96,7 +96,7 @@ Version      : 1.0
          * ----------------------------------------------------------------------------------------
          */
 
-        var magnifPopup = function () {
+        var magnifPopup = function() {
             $('.work-popup').magnificPopup({
                 type: 'image',
                 removalDelay: 300,
@@ -113,7 +113,7 @@ Version      : 1.0
                     // The "opener" function should return the element from which popup will be zoomed in
                     // and to which popup will be scaled down
                     // By defailt it looks for an image tag:
-                    opener: function (openerElement) {
+                    opener: function(openerElement) {
                         // openerElement is the element on which popup was initialized, in this case its <a> tag
                         // you don't need to add "opener" option if this code matches your needs, it's defailt one.
                         return openerElement.is('img') ? openerElement : openerElement.find('img');
@@ -197,7 +197,8 @@ Version      : 1.0
                         },
                         {
                             gamma: 2
-                        }]
+                        }
+                    ]
                 }],
                 mapTpeIdy: google.maps.MapTypeId.ROADMAP
             };
@@ -210,7 +211,7 @@ Version      : 1.0
          *  EXTRA JS
          * ----------------------------------------------------------------------------------------
          */
-        $(document).on('click', '.navbar-collapse.in', function (e) {
+        $(document).on('click', '.navbar-collapse.in', function(e) {
             if ($(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle') {
                 $(this).collapse('hide');
             }
@@ -226,14 +227,14 @@ Version      : 1.0
          *  SCROOL TO UP JS
          * ----------------------------------------------------------------------------------------
          */
-        $(window).on('scroll', function () {
+        $(window).on('scroll', function() {
             if ($(this).scrollTop() > 250) {
                 $('.scrollup').fadeIn();
             } else {
                 $('.scrollup').fadeOut();
             }
         });
-        $('.scrollup').on("click", function () {
+        $('.scrollup').on("click", function() {
             $("html, body").animate({
                 scrollTop: 0
             }, 800);
