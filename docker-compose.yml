@@ -1,0 +1,23 @@
+version: "3.4"
+
+services:
+
+  build:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ".:/app"
+    working_dir: "/app"
+    command: "ng build --environment prod -op dist -bh /responsive/"
+
+  serve:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ".:/app"
+    working_dir: "/app"
+    ports:
+      - "4200:4200"
+    command: "ng serve --host 0.0.0.0 --live-reload --watch"
