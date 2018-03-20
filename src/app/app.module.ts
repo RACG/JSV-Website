@@ -20,6 +20,7 @@ import { FachtageUndFachveranstaltungenComponent } from './fortbildung/fachtage-
 import { KooperationenComponent } from './kooperationen/kooperationen.component';
 import { KooperationAnneFrankSchuleComponent } from './kooperationen/kooperation-anne-frank-schule/kooperation-anne-frank-schule.component';
 import { AktuellesComponent } from './aktuelles/aktuelles.component';
+import { TatigkeitsfelderSectionComponent } from './tatigkeitsfelder/tatigkeitsfelder-section/tatigkeitsfelder-section.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { AktuellesComponent } from './aktuelles/aktuelles.component';
     FachtageUndFachveranstaltungenComponent,
     KooperationenComponent,
     KooperationAnneFrankSchuleComponent,
-    AktuellesComponent
+    AktuellesComponent,
+    TatigkeitsfelderSectionComponent
   ],
   imports: [
     BrowserModule,

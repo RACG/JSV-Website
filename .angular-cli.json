@@ -1,0 +1,81 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "jsv-angular"
+  },
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "dist",
+      "assets": [
+        "assets",
+        "favicon.ico"
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "test.ts",
+      "tsconfig": "tsconfig.app.json",
+      "testTsconfig": "tsconfig.spec.json",
+      "prefix": "app",
+      "styles": [
+        "assets/css/responsive.css",
+        "assets/css/style.css",
+        "assets/css/animate.min.css",
+        "assets/css/magnific-popup.css",
+        "assets/owlcarousel/css/owl.theme.css",
+        "assets/owlcarousel/css/owl.carousel.css",
+        "assets/fonts/font-awesome.min.css",
+        "assets/bootstrap/css/bootstrap.min.css"
+      ],
+      "scripts": [
+        "assets/js/jquery.min.js",
+        "assets/bootstrap/js/bootstrap.min.js",
+        "assets/owlcarousel/js/owl.carousel.min.js",
+        "assets/js/jquery.magnific-popup.min.js",
+        "assets/js/jquery.stellar.min.js",
+        "assets/js/jquery.waypoints.min.js",
+        "assets/js/jquery.counterup.min.js",
+        "assets/js/wow.min.js",
+        "assets/js/isotope.pkgd.js",
+        "assets/js/jquery.sticky.js",
+        "assets/js/form-contact.js",
+        "assets/js/gmap3.min.js",
+        "assets/js/scripts.js"
+      ],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    }
+  ],
+  "e2e": {
+    "protractor": {
+      "config": "./protractor.conf.js"
+    }
+  },
+  "lint": [
+    {
+      "project": "src/tsconfig.app.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "src/tsconfig.spec.json",
+      "exclude": "**/node_modules/**"
+    },
+    {
+      "project": "e2e/tsconfig.e2e.json",
+      "exclude": "**/node_modules/**"
+    }
+  ],
+  "test": {
+    "karma": {
+      "config": "./karma.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "css",
+    "component": {}
+  }
+}
