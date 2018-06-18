@@ -21,6 +21,7 @@ import { KooperationenComponent } from './kooperationen/kooperationen.component'
 import { KooperationAnneFrankSchuleComponent } from './kooperationen/kooperation-anne-frank-schule/kooperation-anne-frank-schule.component';
 import { AktuellesComponent } from './aktuelles/aktuelles.component';
 import { TatigkeitsfelderSectionComponent } from './tatigkeitsfelder/tatigkeitsfelder-section/tatigkeitsfelder-section.component';
+import { NotificationsComponent } from './notifications/notifications.component';
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import { TatigkeitsfelderSectionComponent } from './tatigkeitsfelder/tatigkeitsf
     KooperationenComponent,
     KooperationAnneFrankSchuleComponent,
     AktuellesComponent,
-    TatigkeitsfelderSectionComponent
+    TatigkeitsfelderSectionComponent,
+    NotificationsComponent
   ],
   imports: [
     BrowserModule,

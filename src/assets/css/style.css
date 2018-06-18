@@ -1756,3 +1756,20 @@ a.learn-more {
     padding-right: 0px;
     padding-left: 0px;
 }
+/*
+* ----------------------------------------------------------------------------------------
+* NOTIFICATION BAR
+* ----------------------------------------------------------------------------------------
+*/
+.notification-bar
+{
+    position: absolute;
+    top:20%;
+    left:0;
+    text-align: center;
+    height:60px;
+    width: 100%;
+    background-color: red;
+    font-family: fontAwesome;
+    font-size: 40px;
+}
