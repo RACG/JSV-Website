@@ -2,17 +2,17 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 // components
-import { HomeComponent } from './home/home.component';
-import { ImpressumComponent } from './impressum/impressum.component';
-import { DatenschutzerklarungComponent } from './datenschutzerklarung/datenschutzerklarung.component';
-import { BfdComponent } from './bfd/bfd.component';
-import { UberunsPageComponent } from './uberuns/uberuns-page/uberuns-page.component';
-import { FortbildungComponent } from './fortbildung/fortbildung.component';
-import { SexuelleGewaltComponent } from './fortbildung/sexuelle-gewalt/sexuelle-gewalt.component';
-import { FachtageUndFachveranstaltungenComponent } from './fortbildung/fachtage-und-fachveranstaltungen/fachtage-und-fachveranstaltungen.component';
-import { KooperationenComponent } from './kooperationen/kooperationen.component';
-import { KooperationAnneFrankSchuleComponent } from './kooperationen/kooperation-anne-frank-schule/kooperation-anne-frank-schule.component';
-import { AktuellesComponent } from './aktuelles/aktuelles.component';
+import { HomeComponent } from './component/home/home.component';
+import { ImpressumComponent } from './component/impressum/impressum.component';
+import { DatenschutzerklarungComponent } from './component/datenschutzerklarung/datenschutzerklarung.component';
+import { BfdComponent } from './component/bfd/bfd.component';
+import { UberunsPageComponent } from './component/uberuns/uberuns-page/uberuns-page.component';
+import { FortbildungComponent } from './component/fortbildung/fortbildung.component';
+import { SexuelleGewaltComponent } from './component/fortbildung/sexuelle-gewalt/sexuelle-gewalt.component';
+import { FachtageUndFachveranstaltungenComponent } from './component/fortbildung/fachtage-und-fachveranstaltungen/fachtage-und-fachveranstaltungen.component';
+import { KooperationenComponent } from './component/kooperationen/kooperationen.component';
+import { KooperationAnneFrankSchuleComponent } from './component/kooperationen/kooperation-anne-frank-schule/kooperation-anne-frank-schule.component';
+import { AktuellesComponent } from './component/aktuelles/aktuelles.component';
 
 
 const routes: Routes = [

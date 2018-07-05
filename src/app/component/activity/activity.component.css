@@ -1,0 +1,17 @@
+.description{
+	background-color: #4b691e;
+}
+
+.logoContainer{
+	width: 360px;
+	height: 300px;
+	padding: 20px;
+	border-color: #4b691e;
+	border-style: solid;
+	background-color: white;
+}
+
+img{
+	margin: auto;
+	justify-content: center;
+}

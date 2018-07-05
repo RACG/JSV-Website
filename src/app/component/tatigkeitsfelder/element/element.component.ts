@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+
+import { Activity }						from '../../../to/activity'
 
 @Component({
   selector: 'app-element',
@@ -7,9 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ElementComponent implements OnInit {
 
-	name: String;
-	description: String;
-	urlImage: String;
+	activity: Activity;
 	
 	constructor() { }
 
